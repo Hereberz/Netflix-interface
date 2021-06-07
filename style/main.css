@@ -11,7 +11,7 @@
 /*   elementos base   */
 body{
     background-color: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:white;
 }
 
@@ -20,6 +20,7 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
  
 header .logo{
@@ -44,7 +45,7 @@ header nav a:hover{
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/legend-of-hei.jpg');
 
-    height: 600px;
+    height:400px;
     background-size:cover;
 
     display:flex;
@@ -56,6 +57,7 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom:40px;
+    text-align: justify;
 }
 
 .filme-principal .titulo{
@@ -87,3 +89,25 @@ header nav a:hover{
     margin-right: 8px;
 }
 
+.container{
+    margin-left:20px;
+}
+
+.filme-principal .container{
+    width:70%;
+}
+
+.box-film{
+    height:100%;
+    width:100%;
+    display:block;
+    border-radius: 15px;
+}
+.carrossel-filmes{
+    margin-top: 10px;
+}
+
+.video{
+    height: 100%;
+    width:100%;
+}
